@@ -3,6 +3,54 @@
 <head>
     <title>Playfair Cipher</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .table {
+            width: 100%;
+        }
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        .btn:focus {
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+        .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .table tr {
+            margin-bottom: 20px;
+        }
+        .table tr td:first-child {
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -44,6 +92,11 @@
                         </div>
                         <button type="submit" class="btn btn-success">Decrypt</button>
                     </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/" style="color: #ffffff;"><button class="btn btn-primary" >Về Trang Chủ</button></a>
                 </td>
             </tr>
         </table>
